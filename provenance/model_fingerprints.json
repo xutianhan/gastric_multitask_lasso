@@ -1,0 +1,47 @@
+{
+  "src/gastric_mtl/cox.py": {
+    "_group_info": "8d886ed79acbcdb8ba1f25d451f18ecb838d6e7d33625e5dbe393a61f9b1b578",
+    "CoxObjective": "f0c3ad06b2066c0e3efc1b769853a3cc2405519923039d2a63be5d0a12d7366b",
+    "penalty_value_grad": "3f144c9fe38e0628ab4c4aa12e0d449b820535cea155b241c5449dec12b7dd3a",
+    "coupling_value_grad": "d08b0468c84384d0727ade4b06f1da005acc0c098624bdcd146cafedf8705b54",
+    "lambda_max": "afd335b2c53fc9480c220c4f0abbf3598911e0680cf5d1b560dd2e206b8b53e3",
+    "_minimize": "d803a047d829e39a4eec7462129803b0dbbc76824e6757d1baefd0195a43f1aa",
+    "fit_cox": "c78e07f183b903b1e2187ea58535fb9a8e8e9ff29ab4e390a1cb5988b9149753",
+    "fit_multitask": "ea7b1021c6aaba2b6d23b57906c25de71cded3891701a459e6a74aeaa5e3c5d2",
+    "c_index": "d474670c19ff83384429b87ae3e81c9cdff0bc6060004fde085f36c91a2c8f90"
+  },
+  "src/gastric_mtl/eac.py": {
+    "load_eac_cohorts": "63097ab27cc4228bd06bb462dceef5a69b81d2da86e93302a6e9c1c4eb97da7e",
+    "prepare": "198911443e623679a442facd824498ce79a1af38eb8adcfdac95a4b795e9e2aa"
+  },
+  "src/gastric_mtl/metrics.py": {
+    "_arrays": "2f730d74baf797b12506f9d5f801f6e0e746f815b3c665cb391f91c464133b19",
+    "censoring_km": "76964c866588eb87c34a1bd0262cdd56a278f959a9d7586a2cf633bb514c17c1",
+    "_step": "006f35d8a4e1d54addf302d6c4cc05cbe03194c66d90ab28656a498f2b1a3cc5",
+    "predict_survival": "f6e96b1c21cd7bd9758ea730db4473c3dde91f90d6a0bae5a872b6ede59dc787",
+    "evaluate_survival": "eb288b35da33f8de86138a7cebef06af026463a6b99d11916b9aeb41aa2a7b84"
+  },
+  "src/gastric_mtl/second_order.py": {
+    "SmoothSharingObjective": "43b63a9a5c91bbbac7249104ff61ba2e44308b3aa7c4d3891e74a7cbe612c7ce",
+    "fit_second_order": "d9daef13996276eef8fc2b44dba2eb04d32fb730e9ab1be1f35e8b59533effca",
+    "group_transform": "3e6d158c79c6fd097c84f2313e23267a35af2c8ea92a05c405f308238892dd36",
+    "fit_conditioned_newton": "df6cd095a29ca3d5ee73f937c55ccc4443431060d62481ba61bed2b93f9c0f06",
+    "task_group_transform": "1a47d53e6eb2c678bbc1f5c3d9dc896bbde5e2a16faf77837a33b8ec0d7d0351",
+    "QuadraticSharingObjective": "4faf90d75eec9ec551c9b045a73a3edb410e002d4f15697e02bf447bbd0fd51a",
+    "fit_task_conditioned_newton": "9e05aa1925d6db204b3b74fff4053db5b7fc70e45237b06c2fac71900217640d"
+  },
+  "src/gastric_mtl/solver.py": {
+    "StableDirectionalObjective": "5c9f144cfc7aef6163ae11d3eede192bf3f6b2456f16338e763b9ab4f81b660b",
+    "fit_stable_newton": "fc6f3dd2457fb84af83d41c813f6be5ff83489b7927724ced02331167a9a667b"
+  },
+  "src/gastric_mtl/warmup.py": {
+    "warmup": "bdda554607f471bf752e09ecced228a42c7e1a981343bf70417d0e5f9132d073"
+  },
+  "src/gastric_mtl/quadratic.py": {
+    "StableQuadraticSharingObjective": "88d6e919ac8984caebbce1872f672363c7c478005010ea1e3cf6231274be90ad"
+  },
+  "src/gastric_mtl/proximal.py": {
+    "smooth_group_prox": "8008355e1401351fd8fc02c8138488de4e8a01ab48f8b96b3c095db42f4f1e6c",
+    "fit_proximal_quadratic": "3e0b538b32d9b2a74ca94b9c2dc74e7baaeccb76796fbb46af780f6de27ca52f"
+  }
+}

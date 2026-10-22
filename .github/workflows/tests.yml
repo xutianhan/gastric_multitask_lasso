@@ -1,0 +1,16 @@
+name: Numerical and repository checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/verify_code.py
+      - run: python scripts/run_workflow.py list
+      - run: python scripts/export_github.py

@@ -1,0 +1,3 @@
+# For a checkout: python -m pip install -r requirements.txt
+# Use environment.yml for the reference numerical environment.
+-e .
